@@ -1,0 +1,39 @@
+name: placement_hub
+description: A platform where seniors share placement materials with juniors.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  firebase_messaging: ^14.7.19
+  google_fonts: ^6.1.0
+  file_picker: ^6.1.1
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.5
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+  flutter_pdfview: ^1.3.2
+  share_plus: ^7.2.2
+  permission_handler: ^11.3.0
+  dio: ^5.4.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
